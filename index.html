@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<style>
+    body {
+        font-family: Helvetica, 'Times New Roman', Times, serif;
+    }
+</style>
+<html>
+    <head>
+        <title>U.S. Air Force</title>
+        <link rel="icon" type="image/png" href="Content\fighter_plane_icon_171269.ico">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="index.js"></script>
+
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+        <script src="wind.js" type="text/babel"></script>
+    </head>
+
+    <body>
+
+        <main>
+            <section class="hero">
+                <h1>
+                    <br><br>FOUR PATHS TO GREATNESS. ONE U.S. AIR FORCE.
+                </h1>
+
+                <div>
+                    <ul id="logged_in">
+                        <li>
+                            <h3 id="logged_in_name"></h3>
+                        </li>
+                        <li>
+                            <h3 id="logged_in_lastname"></h3>
+                        </li>
+                        <li>
+                            <button onclick="log_out()" id="logout_button" class="cta" style="visibility: hidden;">Вийти</button>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><a href="login.html" id="login_button" class="cta" style="margin-right: 1%;">Вхід</a></li>
+                        <li><a href="register.html" id="register_button" class="cta">Реєстрація</a></li>
+                    </ul>
+                </div>
+
+                <p>
+                    The mission of the United States Air Force is to fly, fight and win – airpower<br>
+                    anytime, anywhere. Whether full time, part time, in or out of uniform, everyone<br>
+                    who serves plays a critical role in helping us achieve mission success.<br>
+                </p>
+            </section>
+            
+
+            <section class="windy">
+                <br><br><div class="wind" id="wind"></div>
+            </section>
+
+            <section class="services">
+                <video autoplay muted loop id="video-bg">
+                    <source src="Content\USAF_Airforce.com_Homepage page video_2022.mp4" type="video/mp4">
+                </video>
+                
+                <ul>
+                    <li><button onclick="to_academy()">Academy</button></li>
+                    <li><button onclick="to_faqs()">FAQS</button></li>
+                    <li><button onclick="to_media_album()">Media album</button></li>
+                    <li><button onclick="to_react()">React</button></li>
+                </ul>
+            </section>
+            
+        </main>
+    </body>
+
+    <footer>
+        <p>
+            КОНТАКТИ<br><br>
+            <img src="Content\telegram_logo_icon_168692.ico" alt="Telegram icon" width="20" height="20"> Telegram:  @TokenRR<br>
+            <img src="Content\gmail_new_logo_icon_159149.ico" alt="Telegram icon" width="20" height="20"> Gmail: nikitaromanetskiy@gmail.com<br>
+            <img src="Content\1485482192-phone_78665.ico" alt="Telegram icon" width="20" height="20"> Phone number: +380-000-00-00<br>
+        </p>
+    </footer>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>U.S. Air Force</title>
+        <link rel="icon" type="image/png" href="Content\fighter_plane_icon_171269.ico">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="index.js"></script>
+    </head>
+
+    <body>
+        <main>
+            <section class="login">
+                <a href="index.html" style="position: absolute; left: 15%;">На головну</a>
+                <h2>Реєстрація на сайті</h2>
+                <ul>
+                    <li><input type="text" id="user_firstname_text" placeholder="Ім'я" size="25"></li>
+                    <li><input type="text" id="user_lastname_text" placeholder="Прізвище" size="25"></li>
+                    <li><input type="text" id="user_email_text" placeholder="Пошта" size="25"></li>
+                    <li><input type="password" id="user_password_1_text"
+                               placeholder="Пароль (мінімум 4 символи)"
+                               minlength="4" size="25"></li>
+                    <li><input type="password" id="user_password_2_text"
+                               placeholder="Повторіть пароль" size="25"></li>
+                    <li><button onclick="add_user()" id="aboba" style="background-color: #0719a4;">Зареєструватись</button></li>
+                    <li><span id="register_error_text" style="color:red;"></span></li>
+                </ul>
+            </section>
+        </main>
+    </body>
+
+    <footer>
+        <p>
+            КОНТАКТИ<br><br>
+            <img src="Content\telegram_logo_icon_168692.ico" alt="Telegram icon" width="20" height="20"> Telegram:  @TokenRR<br>
+            <img src="Content\gmail_new_logo_icon_159149.ico" alt="Telegram icon" width="20" height="20"> Gmail: nikitaromanetskiy@gmail.com<br>
+            <img src="Content\1485482192-phone_78665.ico" alt="Telegram icon" width="20" height="20"> Phone number: +380-000-00-00<br>
+        </p>
+    </footer>
+</html>
