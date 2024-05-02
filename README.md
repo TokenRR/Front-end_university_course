@@ -1,4 +1,4 @@
-The application can be viewed at the [link](https://tokenrr.github.io/U_S_Air_Force/)
+The application can be viewed at the [link](https://tokenrr.github.io/Front-end_university_course/)
 
 Instructions for launching locally:
 1. Install the `Live Server` extension for your VS Code
